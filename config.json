@@ -1,5 +1,63 @@
 {
-    "useOss": false, 
+    "useOss": true,
     "ossDomain": "https://wechat-mini-zhang.oss-cn-beijing.aliyuncs.com",
-    "githubDomain": "https://fastly.jsdelivr.net/gh/zhangliyuan-chance/wechat-mini-zhang-oss@main"
+    "githubDomain": "https://cdn.jsdelivr.net/gh/zhangliyuan-chance/wechat-mini-zhang-oss@main",
+    "noiseList": [
+        {
+            "id": "rain",
+            "name": "细雨绵绵",
+            "desc": "轻柔的雨声",
+            "icon": "rain.svg",
+            "path": "rain.mp3",
+            "video": "rain.mp4"
+        },
+        {
+            "id": "creek",
+            "name": "小溪流水",
+            "desc": "潺潺流水声",
+            "icon": "creek.svg",
+            "video": "creek.mp4",
+            "path": "xiliusheng.mp3"
+        },
+        {
+            "id": "birds",
+            "name": "林间鸟鸣",
+            "desc": "清脆的鸟鸣",
+            "icon": "bird.svg",
+            "video": "birds.mp4",
+            "path": "niaojiao.mp3"
+        },
+        {
+            "id": "wind",
+            "name": "微风轻拂",
+            "desc": "轻柔风声",
+            "icon": "wind.svg",
+            "video": "wind.mp4",
+            "path": "fengsheng.mp3"
+        },
+        {
+            "id": "bonfire",
+            "name": "篝火噼啪",
+            "desc": "温暖的火焰声",
+            "icon": "bonfire.svg",
+            "video": "bonfire.mp4",
+            "path": "gouhuosheng.mp3"
+        },
+        {
+            "id": "wave",
+            "name": "海浪轻拍",
+            "desc": "海浪声声",
+            "icon": "wave.svg",
+            "video": "wave.mp4",
+            "path": "hailangsheng.mp3"
+        },
+        {
+            "id": "baby",
+            "name": "婴儿哄睡",
+            "desc": "温柔的爱",
+            "icon": "baby.svg",
+            "video": "baby.mp4",
+            "path": "baby.mp3"
+        }
+    ]
 }
