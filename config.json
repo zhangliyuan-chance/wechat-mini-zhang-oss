@@ -1,8 +1,9 @@
 {
-    "test": 1,
-    "useOss": false,
     "ossDomain": "https://wechat-mini-zhang.oss-cn-beijing.aliyuncs.com",
     "githubDomain": "https://cdn.jsdelivr.net/gh/zhangliyuan-chance/wechat-mini-zhang-oss@main",
+    "giteeDomain": "https://raw.giteeusercontent.com/z-l-y-gitee/wechat-mini-zhang-oss/raw/master",
+    "useDomain": "https://raw.giteeusercontent.com/z-l-y-gitee/wechat-mini-zhang-oss/raw/master",
+    "preloadResources": true,
     "noiseList": [
         {
             "id": "rain",
